@@ -51,6 +51,11 @@ p {
 #google-form-btn:hover {
     background-color: #654321; /* Dark Brown color */
 }
+#google-form-btn:disabled {
+    background-color: #a9a9a9; /* Grey color */
+    cursor: not-allowed;
+}
+
 
 #couple-photo {
     max-width: 100%;

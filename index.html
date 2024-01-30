@@ -22,8 +22,15 @@
                 <li>Did we mention there are points for right answers? The top 6 speedy and sharp minds snag surprise gifts. May the quiz odds be ever in your favor!</li>
               </ol>
         </div>
-        <a href="https://forms.gle/K3W5sHsYDc4MnTC7A" target="_blank" id="google-form-btn">Take the Quiz</a>
+        <button id="google-form-btn" onclick="openGoogleForm()">Take the Quiz</button>
+        <!-- <a href="https://forms.gle/K3W5sHsYDc4MnTC7A" target="_blank" id="google-form-btn" disabled>Take the Quiz</a> -->
         <!-- <img src="couple-photo.jpg" alt="Couple's Photo" id="couple-photo"> Replace with the couple's photo URL -->
     </div>
+    <script>
+        function openGoogleForm() {
+            // Change the URL to your Google Form link
+            window.open("https://forms.gle/K3W5sHsYDc4MnTC7A", "_blank");
+        }
+    </script>
 </body>
 </html>
