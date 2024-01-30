@@ -1,0 +1,59 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Untitled\ design.png'); /* Replace with your background image URL */
+    background-size: cover;
+    color: #f10909;
+    text-align: center;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif; /* Different font for heading */
+    color: #ff00ee; /* Custom color */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Adding a subtle text shadow for emphasis */
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif; /* Different font for paragraphs */
+}
+
+#rules {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Tahoma', sans-serif; /* Different font for rules */
+}
+
+#google-form-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8b4513; /* Saddle Brown color */
+    border-radius: 5px;
+    font-family: 'Courier New', monospace; /* Different font for button */
+}
+
+#google-form-btn:hover {
+    background-color: #654321; /* Dark Brown color */
+}
+
+#couple-photo {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
